@@ -1,0 +1,1176 @@
+fileFormatVersion: 2
+guid: 0eb13b7d42fae29429a7430091b066b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6334312237213954806
+    second: 01 - Walk side tilemap_0
+  - first:
+      213: -5190008034931780651
+    second: 01 - Walk side tilemap_1
+  - first:
+      213: 5826160855552593078
+    second: 01 - Walk side tilemap_2
+  - first:
+      213: 2586358057244843348
+    second: 01 - Walk side tilemap_3
+  - first:
+      213: 6025942763596726555
+    second: 01 - Walk side tilemap_4
+  - first:
+      213: -2892778988339203242
+    second: 01 - Walk side tilemap_5
+  - first:
+      213: 536938605607442241
+    second: 01 - Walk side tilemap_6
+  - first:
+      213: -4223413283705302382
+    second: 01 - Walk side tilemap_7
+  - first:
+      213: -9185363868911863293
+    second: 01 - Walk side tilemap_8
+  - first:
+      213: 5766681957551900311
+    second: 01 - Walk side tilemap_9
+  - first:
+      213: 2378103054096159525
+    second: 01 - Walk side tilemap_10
+  - first:
+      213: -3781652811511159370
+    second: 01 - Walk side tilemap_11
+  - first:
+      213: 8486614741264708162
+    second: 01 - Walk side tilemap_12
+  - first:
+      213: 7268288218836055053
+    second: 01 - Walk side tilemap_13
+  - first:
+      213: -8338214682290246763
+    second: 01 - Walk side tilemap_14
+  - first:
+      213: 4175184874291513459
+    second: 01 - Walk side tilemap_15
+  - first:
+      213: 5561296090047132672
+    second: 01 - Walk side tilemap_16
+  - first:
+      213: -4504601704333655184
+    second: 01 - Walk side tilemap_17
+  - first:
+      213: 6266044538076249430
+    second: 01 - Walk side tilemap_18
+  - first:
+      213: 6803757498302324813
+    second: 01 - Walk side tilemap_19
+  - first:
+      213: -8001712209743526731
+    second: 01 - Walk side tilemap_20
+  - first:
+      213: -1202529978128014290
+    second: 01 - Walk side tilemap_21
+  - first:
+      213: 1547772346180931079
+    second: 01 - Walk side tilemap_22
+  - first:
+      213: -5747753405841550525
+    second: 01 - Walk side tilemap_23
+  - first:
+      213: -8750964938779271266
+    second: 01 - Walk side tilemap_24
+  - first:
+      213: -1563479520424039329
+    second: 01 - Walk side tilemap_25
+  - first:
+      213: 2513556852304067430
+    second: 01 - Walk side tilemap_26
+  - first:
+      213: 386736234396031470
+    second: 01 - Walk side tilemap_27
+  - first:
+      213: 4300251673205873362
+    second: 01 - Walk side tilemap_28
+  - first:
+      213: -1959594692419714031
+    second: 01 - Walk side tilemap_29
+  - first:
+      213: -8988360319571384671
+    second: 01 - Walk side tilemap_30
+  - first:
+      213: 5024313088429574398
+    second: 01 - Walk side tilemap_31
+  - first:
+      213: 5749635859399391960
+    second: 01 - Walk side tilemap_32
+  - first:
+      213: 23638748693519678
+    second: 01 - Walk side tilemap_33
+  - first:
+      213: -6481699189655830460
+    second: 01 - Walk side tilemap_34
+  - first:
+      213: 8995870150251024181
+    second: 01 - Walk side tilemap_35
+  - first:
+      213: -732754372846711525
+    second: 01 - Walk side tilemap_36
+  - first:
+      213: 2648230027283037177
+    second: 01 - Walk side tilemap_37
+  - first:
+      213: -5437313598602132163
+    second: 01 - Walk side tilemap_38
+  - first:
+      213: 8044244999956332213
+    second: 01 - Walk side tilemap_39
+  - first:
+      213: 6572123764277532168
+    second: 01 - Walk side tilemap_40
+  - first:
+      213: 7746268513850004921
+    second: 01 - Walk side tilemap_41
+  - first:
+      213: -984015289121070982
+    second: 01 - Walk side tilemap_42
+  - first:
+      213: -2319187106046521875
+    second: 01 - Walk side tilemap_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 281
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f23c8b4b6ff7e750800000000000000
+      internalID: 6334312237213954806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 281
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3d778a03369f7b0800000000000000
+      internalID: -5190008034931780651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 280
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc8f770e6eaad050800000000000000
+      internalID: 5826160855552593078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 281
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d5c0033f694e320800000000000000
+      internalID: 2586358057244843348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 281
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11c405440370a350800000000000000
+      internalID: 6025942763596726555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 281
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653f35236d8cad7d0800000000000000
+      internalID: -2892778988339203242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 280
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147dc6521d6937700800000000000000
+      internalID: 536938605607442241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_7
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 281
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292541dbefb6365c0800000000000000
+      internalID: -4223413283705302382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30afcc43a38078080800000000000000
+      internalID: -9185363868911863293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 208
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796098cefae570050800000000000000
+      internalID: 5766681957551900311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 208
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5235ca2c028b00120800000000000000
+      internalID: 2378103054096159525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_11
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 208
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b52502ddced48bc0800000000000000
+      internalID: -3781652811511159370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 208
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2423da6a42386c570800000000000000
+      internalID: 8486614741264708162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 209
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0431e040a52ed460800000000000000
+      internalID: 7268288218836055053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_14
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ba4299ce5b84c80800000000000000
+      internalID: -8338214682290246763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_15
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 208
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378cab7a58c31f930800000000000000
+      internalID: 4175184874291513459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_16
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 208
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00437023451bd2d40800000000000000
+      internalID: 5561296090047132672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_17
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 208
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073c296cd907c71c0800000000000000
+      internalID: -4504601704333655184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_18
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 208
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dbfc6fe4675f650800000000000000
+      internalID: 6266044538076249430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 209
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40e538956dcb6e50800000000000000
+      internalID: 6803757498302324813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 150
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4c45fd32534f090800000000000000
+      internalID: -8001712209743526731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_21
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 150
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24ebed2b51cf4fe0800000000000000
+      internalID: -1202529978128014290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_22
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 149
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e89479fbaca7510800000000000000
+      internalID: 1547772346180931079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_23
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 150
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343d544fab0eb30b0800000000000000
+      internalID: -5747753405841550525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_24
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 150
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fd926b0c35e8680800000000000000
+      internalID: -8750964938779271266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_25
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 150
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ce68be8a76d4ae0800000000000000
+      internalID: -1563479520424039329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_26
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 149
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b3558c3a2f1e220800000000000000
+      internalID: 2513556852304067430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_27
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 150
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee992f06e86fd5500800000000000000
+      internalID: 386736234396031470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_28
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 90
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da1732fc109dab30800000000000000
+      internalID: 4300251673205873362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_29
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 90
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1140596720f1ec4e0800000000000000
+      internalID: -1959594692419714031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_30
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 89
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a62bb669ede24380800000000000000
+      internalID: -8988360319571384671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_31
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 90
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8c03c4222f9b540800000000000000
+      internalID: 5024313088429574398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_32
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 90
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da395be95fcacf40800000000000000
+      internalID: 5749635859399391960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_33
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 90
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ddfc2115bf35000800000000000000
+      internalID: 23638748693519678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_34
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 89
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44080a3bde06c06a0800000000000000
+      internalID: -6481699189655830460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_35
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 90
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f804f4d30c7dc70800000000000000
+      internalID: 8995870150251024181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 34
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d8bdab7cbb4d5f0800000000000000
+      internalID: -732754372846711525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_37
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 34
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb7abbcd2760c420800000000000000
+      internalID: 2648230027283037177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_38
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 33
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d354be61718ca84b0800000000000000
+      internalID: -5437313598602132163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 34
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5befb9c0536e2af60800000000000000
+      internalID: 8044244999956332213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_40
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 34
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8065aa53ebfd43b50800000000000000
+      internalID: 6572123764277532168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_41
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 34
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b592defb26408b60800000000000000
+      internalID: 7746268513850004921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_42
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 33
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70a26ede431852f0800000000000000
+      internalID: -984015289121070982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01 - Walk side tilemap_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 34
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded4e685d9790dfd0800000000000000
+      internalID: -2319187106046521875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,792 @@
+fileFormatVersion: 2
+guid: b99cf95e7bc5e994fae11dded2f8bdb1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5104383472495672986
+    second: 002 - Tool use front tilemap_0
+  - first:
+      213: 4395778899134287059
+    second: 002 - Tool use front tilemap_1
+  - first:
+      213: 3729631269299453255
+    second: 002 - Tool use front tilemap_2
+  - first:
+      213: 5857821441158044176
+    second: 002 - Tool use front tilemap_3
+  - first:
+      213: 8995470129011955177
+    second: 002 - Tool use front tilemap_4
+  - first:
+      213: 8088408372352070882
+    second: 002 - Tool use front tilemap_5
+  - first:
+      213: -1580387975722622359
+    second: 002 - Tool use front tilemap_6
+  - first:
+      213: 9197302665190376734
+    second: 002 - Tool use front tilemap_7
+  - first:
+      213: -2732323610144286583
+    second: 002 - Tool use front tilemap_8
+  - first:
+      213: -3963657176712888575
+    second: 002 - Tool use front tilemap_9
+  - first:
+      213: 1788660750907912001
+    second: 002 - Tool use front tilemap_10
+  - first:
+      213: -5483715190625114211
+    second: 002 - Tool use front tilemap_11
+  - first:
+      213: -4547812988832218403
+    second: 002 - Tool use front tilemap_12
+  - first:
+      213: -6124594008575033180
+    second: 002 - Tool use front tilemap_13
+  - first:
+      213: -4128690032600172824
+    second: 002 - Tool use front tilemap_14
+  - first:
+      213: 9203608828047093988
+    second: 002 - Tool use front tilemap_15
+  - first:
+      213: 6563308758812279688
+    second: 002 - Tool use front tilemap_16
+  - first:
+      213: -9179500558348366843
+    second: 002 - Tool use front tilemap_17
+  - first:
+      213: 50334491075795892
+    second: 002 - Tool use front tilemap_18
+  - first:
+      213: 8794656252719296361
+    second: 002 - Tool use front tilemap_19
+  - first:
+      213: 2919526752790091170
+    second: 002 - Tool use front tilemap_20
+  - first:
+      213: 271281855909369223
+    second: 002 - Tool use front tilemap_21
+  - first:
+      213: 6791469330689579033
+    second: 002 - Tool use front tilemap_22
+  - first:
+      213: -1783689705083160003
+    second: 002 - Tool use front tilemap_23
+  - first:
+      213: 7132973550320238063
+    second: 002 - Tool use front tilemap_24
+  - first:
+      213: 6987353816229507669
+    second: 002 - Tool use front tilemap_25
+  - first:
+      213: 793353214178521838
+    second: 002 - Tool use front tilemap_26
+  - first:
+      213: 4736681172544849315
+    second: 002 - Tool use front tilemap_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 226
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9eba7b59b966d640800000000000000
+      internalID: 5104383472495672986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 226
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc8e027e91f00d30800000000000000
+      internalID: 4395778899134287059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 226
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d78c501ef42c330800000000000000
+      internalID: 3729631269299453255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 225
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a54ed80992b4150800000000000000
+      internalID: 5857821441158044176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 225
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5156b1c6456dc70800000000000000
+      internalID: 8995470129011955177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 226
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e437587f8ccf3070800000000000000
+      internalID: 8088408372352070882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 226
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96221c36285511ae0800000000000000
+      internalID: -1580387975722622359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 144
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e150d6a6b0263af70800000000000000
+      internalID: 9197302665190376734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_8
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 144
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988dfed2726d41ad0800000000000000
+      internalID: -2732323610144286583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 144
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fb9925cc24ef8c0800000000000000
+      internalID: -3963657176712888575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 144
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fac89e97992d810800000000000000
+      internalID: 1788660750907912001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_11
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 144
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97606d861ee5e3b0800000000000000
+      internalID: -5483715190625114211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_12
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 144
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd28fb79e2ce2e0c0800000000000000
+      internalID: -4547812988832218403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_13
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 144
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0466dd232110ba0800000000000000
+      internalID: -6124594008575033180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_14
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 102
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6bb234a42f3b6c0800000000000000
+      internalID: -4128690032600172824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 102
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0756f5779c9bf70800000000000000
+      internalID: 9203608828047093988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 102
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8834730da8e851b50800000000000000
+      internalID: 6563308758812279688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_17
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 101
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c452490ecdb9080800000000000000
+      internalID: -9179500558348366843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_18
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 101
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbd584f3f2d2b000800000000000000
+      internalID: 50334491075795892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 102
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f60090445ec0a70800000000000000
+      internalID: 8794656252719296361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_20
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 102
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a59d440d1e348820800000000000000
+      internalID: 2919526752790091170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_21
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 32
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7859c7f1969c3c300800000000000000
+      internalID: 271281855909369223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_22
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 33
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91856be9f55204e50800000000000000
+      internalID: 6791469330689579033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_23
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 33
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a3ff2e9af0f37e0800000000000000
+      internalID: -1783689705083160003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_24
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 22
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed3813e6a96df260800000000000000
+      internalID: 7132973550320238063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_25
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 21
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5527458764118f060800000000000000
+      internalID: 6987353816229507669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_26
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 21
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee276808b8e820b00800000000000000
+      internalID: 793353214178521838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 002 - Tool use front tilemap_27
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 21
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a501df2e621cb140800000000000000
+      internalID: 4736681172544849315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
