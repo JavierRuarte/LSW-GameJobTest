@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class EInput : Command
+public class EInput : ICommand
 {
     private readonly Transform playerTransform;
 

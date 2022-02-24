@@ -1,7 +1,52 @@
 fileFormatVersion: 2
 guid: 08ae62b25ece5ae4faff3085e802ddf5
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3703426030370245513
+    second: SRW_Marketplace_tileset_B_0
+  - first:
+      213: -1158392528873184428
+    second: SRW_Marketplace_tileset_B_1
+  - first:
+      213: -2110354981842695267
+    second: SRW_Marketplace_tileset_B_2
+  - first:
+      213: 8891473166600515053
+    second: SRW_Marketplace_tileset_B_3
+  - first:
+      213: -5396981866092815213
+    second: SRW_Marketplace_tileset_B_4
+  - first:
+      213: -1896240609135378402
+    second: SRW_Marketplace_tileset_B_5
+  - first:
+      213: -3035452186682922895
+    second: SRW_Marketplace_tileset_B_6
+  - first:
+      213: 1972027686152789312
+    second: SRW_Marketplace_tileset_B_7
+  - first:
+      213: 3621515559274582220
+    second: SRW_Marketplace_tileset_B_8
+  - first:
+      213: 7560365576083767106
+    second: SRW_Marketplace_tileset_B_9
+  - first:
+      213: -8798735506870209773
+    second: SRW_Marketplace_tileset_B_10
+  - first:
+      213: 1734561006032234035
+    second: SRW_Marketplace_tileset_B_11
+  - first:
+      213: 7853914043009003651
+    second: SRW_Marketplace_tileset_B_12
+  - first:
+      213: 67410978898788742
+    second: SRW_Marketplace_tileset_B_13
+  - first:
+      213: -3060884119993645970
+    second: SRW_Marketplace_tileset_B_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +86,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +120,348 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 591
+        width: 132
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b47206a56356330800000000000000
+      internalID: 3703426030370245513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 597
+        width: 24
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4532c06e1209cefe0800000000000000
+      internalID: -1158392528873184428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 591
+        width: 42
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b4a4d335386b2e0800000000000000
+      internalID: -2110354981842695267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 624
+        width: 144
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded24296cbbd46b70800000000000000
+      internalID: 8891473166600515053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 528
+        width: 144
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c105456911a15b0800000000000000
+      internalID: -5396981866092815213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 144
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10c0d376333fa5e0800000000000000
+      internalID: -1896240609135378402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 144
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178e4189158efd5d0800000000000000
+      internalID: -3035452186682922895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 144
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d5f587bbc0e5b10800000000000000
+      internalID: 1972027686152789312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 198
+        width: 90
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc09c1ba635324230800000000000000
+      internalID: 3621515559274582220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3
+        width: 96
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f70965f60dbe860800000000000000
+      internalID: 7560365576083767106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_10
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 3
+        width: 93
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31372689cac94e580800000000000000
+      internalID: -8798735506870209773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_11
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 93
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336abcd7b06621810800000000000000
+      internalID: 1734561006032234035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 624
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380f006d535befc60800000000000000
+      internalID: 7853914043009003651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_13
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 576
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681493b9ded7fe000800000000000000
+      internalID: 67410978898788742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRW_Marketplace_tileset_B_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 198
+        width: 84
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6405213c1e8585d0800000000000000
+      internalID: -3060884119993645970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

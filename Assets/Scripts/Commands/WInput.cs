@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WInput : Command
+public class WInput : ICommand
 {
     private readonly Transform playerTransform;
 

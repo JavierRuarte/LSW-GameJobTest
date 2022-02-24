@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField]private float speedOfMovement;
     [SerializeField]private bool canMove;
-    private readonly List<Command> commands = new List<Command>();
+    private readonly List<ICommand> commands = new List<ICommand>();
 
     [Header("Player Stats")]
     public int amountOfMoney;
