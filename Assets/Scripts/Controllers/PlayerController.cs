@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    //All the movements and actions of the player are here
     void Movements()
     {
         foreach (var command in commands)

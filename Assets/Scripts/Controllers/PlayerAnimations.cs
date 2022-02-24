@@ -7,18 +7,18 @@ public class PlayerAnimations : MonoBehaviour
     [SerializeField] private Animator[] animsController;
 
     [SerializeField] private PlayerController pController;
-    // Start is called before the first frame update
     void Start()
     {
         animsController = GetComponentsInChildren<Animator>();
+        pController = FindObjectOfType<PlayerController>();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         
     }
 
+    //Play animations depending of witch direction is the player going
     public void CheckForActionsAnimations(KeyCode keyCode)
     {
         switch (keyCode)

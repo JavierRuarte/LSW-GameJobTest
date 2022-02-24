@@ -15,6 +15,7 @@ public class ChestOpener : MonoBehaviour
         chestAnimation = GetComponent<Animator>();
     }
 
+    //Detect when the player is close, check if the chest can be opened and give the player money
     private void OnTriggerStay2D(Collider2D other)
     {
         if (!blockChest && other.gameObject.GetComponent<PlayerController>() && !chestOpen)
@@ -27,15 +28,4 @@ public class ChestOpener : MonoBehaviour
             }
         }
     }
-
-    /*private void OnCollisionStay2D(Collision2D other)
-    {
-        if (!blockChest && other.gameObject.GetComponent<PlayerController>())
-        {
-            if (Input.GetKey(KeyCode.E))
-            {
-                chestAnimation.SetBool("isOpening", true);
-            }
-        }
-    }*/
 }

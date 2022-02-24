@@ -23,11 +23,13 @@ public class GameController : MonoBehaviour
         
     }
 
-    public void CallUIActualization()
+    //Call actualization for the UI
+    private void CallUIActualization()
     {
         uiController.ActualizationOfUi();
     }
 
+    //Change the amount of money of the player
     public void GiveMoneyToPlayer(int money)
     {
         player.amountOfMoney = player.amountOfMoney + money;
