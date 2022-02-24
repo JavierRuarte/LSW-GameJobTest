@@ -23,6 +23,7 @@ public class ShopController : MonoBehaviour
     private GameObject gObject;
     [SerializeField] private Transform shopScrollView;
     private Button buyButton;
+    private Button closeButton;
 
     private void Start()
     {
@@ -44,7 +45,7 @@ public class ShopController : MonoBehaviour
         {
             buyButton.transform.GetChild(0).GetComponent<Text>().text = "PURCHASED";
         }
-        
+
     }
 
     private void OnShopButtonClicked(int itemIndex)

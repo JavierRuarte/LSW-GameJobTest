@@ -49,4 +49,9 @@ public class StoreUIController : MonoBehaviour
             shopUi.SetActive(false);
         }
     }
+
+    public void CloseShop()
+    {
+        shopUi.SetActive(false);
+    }
 }
