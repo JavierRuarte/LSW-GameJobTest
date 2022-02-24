@@ -17,6 +17,8 @@ public class ShopController : MonoBehaviour
     }
 
     [SerializeField] private List<ShopItem> shopItemsList;
+    [SerializeField] private Animator noCoinAnim;
+    [SerializeField] private TextMeshProUGUI coinText;
     private GameObject itenmTemplate;
     private GameObject gObject;
     [SerializeField] private Transform shopScrollView;
@@ -42,6 +44,7 @@ public class ShopController : MonoBehaviour
         {
             buyButton.transform.GetChild(0).GetComponent<Text>().text = "PURCHASED";
         }
+        
     }
 
     private void OnShopButtonClicked(int itemIndex)
@@ -56,7 +59,17 @@ public class ShopController : MonoBehaviour
             buyButton = shopScrollView.GetChild(itemIndex).GetChild(2).GetComponent<Button>();
             buyButton.interactable = false;
             buyButton.transform.GetChild(0).GetComponent<Text>().text = "PURCHASED";
+            SetCoinsInUI();
         }
-        
+        else
+        {
+            Debug.Log("You dont have enough gold!!!");
+            noCoinAnim.SetTrigger("noGold");
+        }
+    }
+
+    public void SetCoinsInUI()
+    {
+        coinText.text = GameController.instance.amountOfMoney.ToString();
     }
 }

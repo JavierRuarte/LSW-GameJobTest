@@ -8,6 +8,8 @@ public class StoreUIController : MonoBehaviour
     [SerializeField] private GameObject shopUi;
 
     [SerializeField] private bool canOpenShop;
+
+    [SerializeField] private ShopController _shopController;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +42,7 @@ public class StoreUIController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && canOpenShop)
         {
             shopUi.SetActive(true);
+            _shopController.SetCoinsInUI();
         }
         else if(shopUi.activeSelf && Input.GetKeyDown(KeyCode.P))
         {
