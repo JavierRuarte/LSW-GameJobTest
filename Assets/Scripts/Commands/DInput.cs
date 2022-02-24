@@ -24,6 +24,7 @@ public class DInput : Command
         if (playerCanMove.Invoke())
         {
             playerTransform.position += new Vector3(speedOfPlayer.Invoke() * 1,0) * Time.deltaTime;
+            playerTransform.transform.localScale = new Vector3(3, 3, 3);
         }
     }
 }

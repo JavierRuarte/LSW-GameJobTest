@@ -7,6 +7,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField]private float speedOfMovement;
     [SerializeField]private bool canMove;
     private readonly List<Command> commands = new List<Command>();
+
+    [Header("Player Stats")]
+    public int amountOfMoney;
+    [SerializeField] private PlayerAnimations pAnim;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +18,7 @@ public class PlayerController : MonoBehaviour
         commands.Add(new DInput(transform, ()=> speedOfMovement, ()=> canMove));
         commands.Add(new SInput(transform, ()=> speedOfMovement, ()=> canMove));
         commands.Add(new WInput(transform, ()=> speedOfMovement, ()=> canMove));
+        pAnim = FindObjectOfType<PlayerAnimations>();
     }
 
     // Update is called once per frame
@@ -32,6 +37,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKey(command.KeyCode))
             {
                 command.Execute();
+                pAnim.CheckForActionsAnimations(command.KeyCode);
             }
         }
     }
