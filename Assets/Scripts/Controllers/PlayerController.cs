@@ -9,7 +9,6 @@ public class PlayerController : MonoBehaviour
     private readonly List<ICommand> commands = new List<ICommand>();
 
     [Header("Player Stats")]
-    public int amountOfMoney;
     [SerializeField] private PlayerAnimations pAnim;
     // Start is called before the first frame update
     void Start()

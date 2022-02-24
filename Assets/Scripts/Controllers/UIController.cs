@@ -23,6 +23,6 @@ public class UIController : MonoBehaviour
 
     public void ActualizationOfUi()
     {
-        money.text = "Money: " + player.amountOfMoney;
+        money.text = "Money: " + GameController.instance.amountOfMoney;
     }
 }

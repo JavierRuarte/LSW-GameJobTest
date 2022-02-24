@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
     public static GameController instance;
     [SerializeField] private UIController uiController;
     [SerializeField] private int lives;
+    public int amountOfMoney;
     [SerializeField] private PlayerController player;
 
     [SerializeField] private bool gameOver;
@@ -32,7 +33,17 @@ public class GameController : MonoBehaviour
     //Change the amount of money of the player
     public void GiveMoneyToPlayer(int money)
     {
-        player.amountOfMoney = player.amountOfMoney + money;
+        amountOfMoney = amountOfMoney + money;
         CallUIActualization();
+    }
+
+    public void UseCoins(int amount)
+    {
+        amountOfMoney -= amount;
+    }
+
+    public bool HasEnoughCoins(int amount)
+    {
+        return (amountOfMoney >= amount);
     }
 }
