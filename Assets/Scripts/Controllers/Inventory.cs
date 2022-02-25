@@ -40,6 +40,7 @@ public class Inventory : MonoBehaviour
    [SerializeField] private Color activeAvatarColor;
    [SerializeField] private Color defaultAvatarColor;
    [SerializeField] private Image currentAvatar;
+   [SerializeField] private PlayerController player;
 
    private void Start()
    {
@@ -93,5 +94,17 @@ public class Inventory : MonoBehaviour
        avatarsScrollView.GetChild(newSelectedIndex).GetComponent<Image>().color = activeAvatarColor;
 
        currentAvatar.sprite = avatarList[newSelectedIndex].image;
+   }
+
+   void SellItem()
+   {
+       if (player.canSellItem)
+       {
+           Debug.Log("Player can sell the item");
+       }
+       else
+       {
+           Debug.Log("Player can't sell the item");
+       }
    }
 }

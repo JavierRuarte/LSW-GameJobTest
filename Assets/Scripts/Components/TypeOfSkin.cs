@@ -11,10 +11,10 @@ public class TypeOfSkin : MonoBehaviour
 
    private void Start()
    {
-      CheckForTypeOfSkin();
+      //CheckForTypeOfSkin();
    }
 
-   void CheckForTypeOfSkin()
+   /*void CheckForTypeOfSkin()
    {
        if (skinType[0])
        {
@@ -30,5 +30,5 @@ public class TypeOfSkin : MonoBehaviour
        {
            skin = "FemaleWitchSkin";
        }
-   }
+   }*/
 }

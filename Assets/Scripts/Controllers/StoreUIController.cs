@@ -10,6 +10,8 @@ public class StoreUIController : MonoBehaviour
     [SerializeField] private bool canOpenShop;
 
     [SerializeField] private ShopController _shopController;
+
+    [SerializeField] private PlayerController player;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,7 @@ public class StoreUIController : MonoBehaviour
         {
             Debug.Log("player is in the zone");
             canOpenShop = true;
+            player.canSellItem = true;
         }
     }
 
@@ -35,6 +38,7 @@ public class StoreUIController : MonoBehaviour
     {
         shopUi.SetActive(false);
         canOpenShop = false;
+        player.canSellItem = false;
     }
 
     private void OpenAndCloseShop()

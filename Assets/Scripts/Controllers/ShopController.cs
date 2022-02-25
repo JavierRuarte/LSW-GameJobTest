@@ -82,4 +82,9 @@ public class ShopController : MonoBehaviour
     {
         coinText.text = GameController.instance.amountOfMoney.ToString();
     }
+
+    public void IsSellingItems()
+    {
+        
+    }
 }
