@@ -54,6 +54,7 @@ public class PlayerAnimations : MonoBehaviour
                     parameter.SetFloat("sideSpeed", 0);
                     parameter.SetFloat("frontSpeed", 0.2f);
                     parameter.SetFloat("backSpeed", 0);
+                    
                 }
                 break;
         }

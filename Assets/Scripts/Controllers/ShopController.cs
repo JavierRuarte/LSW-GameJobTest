@@ -37,14 +37,16 @@ public class ShopController : MonoBehaviour
             gObject.transform.GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = shopItemsList[i].price.ToString();
             buyButton = gObject.transform.GetChild(2).GetComponent<Button>();
             buyButton.interactable = !shopItemsList[i].isPurchased;
+            if (shopItemsList[i].isPurchased)
+            {
+                DisableBuyButton();
+            }
             buyButton.AddEventListener(i,OnShopButtonClicked);
+           
         }
         Destroy(itenmTemplate);
 
-        if (buyButton.interactable == false)
-        {
-            buyButton.transform.GetChild(0).GetComponent<Text>().text = "PURCHASED";
-        }
+        
 
     }
 
@@ -58,8 +60,7 @@ public class ShopController : MonoBehaviour
         
             //disable the button
             buyButton = shopScrollView.GetChild(itemIndex).GetChild(2).GetComponent<Button>();
-            buyButton.interactable = false;
-            buyButton.transform.GetChild(0).GetComponent<Text>().text = "PURCHASED";
+            DisableBuyButton();
             SetCoinsInUI();
         }
         else
@@ -67,6 +68,12 @@ public class ShopController : MonoBehaviour
             Debug.Log("You dont have enough gold!!!");
             noCoinAnim.SetTrigger("noGold");
         }
+    }
+
+    void DisableBuyButton()
+    {
+        buyButton.interactable = false;
+        buyButton.transform.GetChild(0).GetComponent<Text>().text = "PURCHASED";
     }
 
     public void SetCoinsInUI()

@@ -36,6 +36,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: normalSkin
+    m_EventTreshold: 0.1
   - m_ConditionMode: 3
     m_ConditionEvent: sideSpeed
     m_EventTreshold: 0.1
@@ -64,8 +67,8 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: frontSpeed
     m_EventTreshold: 0.1
-  - m_ConditionMode: 4
-    m_ConditionEvent: sideSpeed
+  - m_ConditionMode: 1
+    m_ConditionEvent: normalSkin
     m_EventTreshold: 0.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4947244997260666196}
@@ -120,6 +123,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: sideSpeed
     m_EventTreshold: 0.1
+  - m_ConditionMode: 1
+    m_ConditionEvent: normalSkin
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8616376057303139836}
   m_Solo: 0
@@ -184,6 +190,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: backSpeed
     m_EventTreshold: 0.1
+  - m_ConditionMode: 1
+    m_ConditionEvent: normalSkin
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4709407303621614219}
   m_Solo: 0
@@ -225,6 +234,24 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+  - m_Name: normalSkin
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 1
+    m_Controller: {fileID: 0}
+  - m_Name: witchSkin
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: knightSkin
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -252,6 +279,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: backSpeed
     m_EventTreshold: 0.1
+  - m_ConditionMode: 1
+    m_ConditionEvent: normalSkin
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4947244997260666196}
   m_Solo: 0
@@ -275,9 +305,6 @@ AnimatorStateMachine:
   m_PrefabAsset: {fileID: 0}
   m_Name: Base Layer
   m_ChildStates:
-  - serializedVersion: 1
-    m_State: {fileID: 2095693894348329099}
-    m_Position: {x: 210, y: -20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4947244997260666196}
     m_Position: {x: 450, y: 110, z: 0}
@@ -337,6 +364,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: frontSpeed
     m_EventTreshold: 0.1
+  - m_ConditionMode: 1
+    m_ConditionEvent: normalSkin
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4709407303621614219}
   m_Solo: 0

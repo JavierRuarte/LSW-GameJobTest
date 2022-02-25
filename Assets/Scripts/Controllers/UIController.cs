@@ -5,24 +5,36 @@ using UnityEngine;
 
 public class UIController : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI money;
-
     [SerializeField] private PlayerController player;
+
+    [SerializeField] private GameObject inventory;
+    [SerializeField] private TextMeshProUGUI goldText;
+
+    [SerializeField] private bool inventoryIsOpen;
     // Start is called before the first frame update
     void Start()
     {
         player = FindObjectOfType<PlayerController>();
-        money.text = "Money: 0";
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        goldText.text = "Money: 0";
+        inventory.SetActive(false);
     }
 
     public void ActualizationOfUi()
     {
-        money.text = "Money: " + GameController.instance.amountOfMoney;
+        goldText.text = "Money: " + GameController.instance.amountOfMoney;
+    }
+
+    public void ShowOrHidePlayerInventory()
+    {
+        if (!inventoryIsOpen)
+        {
+            inventory.SetActive(true);
+            inventoryIsOpen = true;
+        }
+        else
+        {
+            inventory.SetActive(false);
+            inventoryIsOpen = false;
+        }
     }
 }
