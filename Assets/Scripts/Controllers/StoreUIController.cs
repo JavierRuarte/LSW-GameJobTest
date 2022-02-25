@@ -1,61 +1,59 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class StoreUIController : MonoBehaviour
+namespace Controllers
 {
-    [SerializeField] private GameObject shopUi;
-
-    [SerializeField] private bool canOpenShop;
-
-    [SerializeField] private ShopController _shopController;
-
-    [SerializeField] private PlayerController player;
-    // Start is called before the first frame update
-    void Start()
+    public class StoreUIController : MonoBehaviour
     {
-        shopUi.SetActive(false);
-    }
+        [SerializeField] private GameObject shopUi;
 
-    // Update is called once per frame
-    void Update()
-    {
-        OpenAndCloseShop();
-    }
+        [SerializeField] private bool canOpenShop;
 
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.gameObject.GetComponent<PlayerController>())
-        {
-            Debug.Log("player is in the zone");
-            canOpenShop = true;
-            player.canSellItem = true;
-        }
-    }
+        [SerializeField] private ShopController _shopController;
 
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        shopUi.SetActive(false);
-        canOpenShop = false;
-        player.canSellItem = false;
-    }
-
-    private void OpenAndCloseShop()
-    {
-        if (Input.GetKeyDown(KeyCode.E) && canOpenShop)
-        {
-            shopUi.SetActive(true);
-            _shopController.SetCoinsInUI();
-        }
-        else if(shopUi.activeSelf && Input.GetKeyDown(KeyCode.P))
+        [SerializeField] private PlayerController player;
+        // Start is called before the first frame update
+        void Start()
         {
             shopUi.SetActive(false);
         }
-    }
 
-    public void CloseShop()
-    {
-        shopUi.SetActive(false);
+        // Update is called once per frame
+        void Update()
+        {
+            OpenAndCloseShop();
+        }
+
+        private void OnTriggerStay2D(Collider2D other)
+        {
+            if (other.gameObject.GetComponent<PlayerController>())
+            {
+                Debug.Log("player is in the zone");
+                canOpenShop = true;
+            }
+        }
+
+        private void OnTriggerExit2D(Collider2D other)
+        {
+            shopUi.SetActive(false);
+            canOpenShop = false;
+        }
+
+        private void OpenAndCloseShop()
+        {
+            if (Input.GetKeyDown(KeyCode.E) && canOpenShop)
+            {
+                shopUi.SetActive(true);
+                _shopController.SetCoinsInUI();
+            }
+            else if(shopUi.activeSelf && Input.GetKeyDown(KeyCode.P))
+            {
+                shopUi.SetActive(false);
+            }
+        }
+
+        public void CloseShop()
+        {
+            shopUi.SetActive(false);
+        }
     }
 }

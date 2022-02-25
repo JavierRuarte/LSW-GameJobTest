@@ -1,30 +1,30 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class ChestOpener : MonoBehaviour
+namespace Controllers
 {
-    [SerializeField] private bool chestOpen;
-    [SerializeField]private bool blockChest;
-    [SerializeField]private Animator chestAnimation;
-    [SerializeField]private int moneyOfChest;
-
-    private void Start()
+    public class ChestOpener : MonoBehaviour
     {
-        chestAnimation = GetComponent<Animator>();
-    }
+        [SerializeField] private bool chestOpen;
+        [SerializeField]private bool blockChest;
+        [SerializeField]private Animator chestAnimation;
+        [SerializeField]private int moneyOfChest;
 
-    //Detect when the player is close, check if the chest can be opened and give the player money
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if (!blockChest && other.gameObject.GetComponent<PlayerController>() && !chestOpen)
+        private void Start()
         {
-            if (Input.GetKey(KeyCode.E))
+            chestAnimation = GetComponent<Animator>();
+        }
+
+        //Detect when the player is close, check if the chest can be opened and give the player money
+        private void OnTriggerStay2D(Collider2D other)
+        {
+            if (!blockChest && other.gameObject.GetComponent<PlayerController>() && !chestOpen)
             {
-                chestOpen = true;
-                chestAnimation.SetBool("isOpening", true);
-                GameController.instance.GiveMoneyToPlayer(moneyOfChest);
+                if (Input.GetKey(KeyCode.E))
+                {
+                    chestOpen = true;
+                    chestAnimation.SetBool("isOpening", true);
+                    GameController.instance.GiveMoneyToPlayer(moneyOfChest);
+                }
             }
         }
     }

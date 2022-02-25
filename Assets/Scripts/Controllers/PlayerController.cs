@@ -1,57 +1,58 @@
-using System.Collections;
 using System.Collections.Generic;
 using Commands;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+namespace Controllers
 {
-    [SerializeField]private float speedOfMovement;
-    public bool canMove;
-    public bool canSellItem;
-    private readonly List<ICommand> commands = new List<ICommand>();
-    private readonly List<ICommand> oneUsecommands = new List<ICommand>();
-
-    [Header("Player References")]
-    [SerializeField] private PlayerAnimations pAnim;
-    [SerializeField] private UIController uiController;
-    // Start is called before the first frame update
-    void Start()
+    public class PlayerController : MonoBehaviour
     {
-        uiController = FindObjectOfType<UIController>();
-        commands.Add(new AInput(transform, ()=> speedOfMovement, ()=> canMove));
-        commands.Add(new DInput(transform, ()=> speedOfMovement, ()=> canMove));
-        commands.Add(new SInput(transform, ()=> speedOfMovement, ()=> canMove));
-        commands.Add(new WInput(transform, ()=> speedOfMovement, ()=> canMove));
-        oneUsecommands.Add(new IInput(uiController));
-        pAnim = FindObjectOfType<PlayerAnimations>();
-    }
+        [SerializeField]private float speedOfMovement;
+        public bool canMove;
+        private readonly List<ICommand> commands = new List<ICommand>();
+        private readonly List<ICommand> oneUsecommands = new List<ICommand>();
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (canMove)
+        [Header("Player References")]
+        [SerializeField] private PlayerAnimations pAnim;
+        [SerializeField] private UIController uiController;
+        // Start is called before the first frame update
+        void Start()
         {
-            Movements();
+            uiController = FindObjectOfType<UIController>();
+            commands.Add(new AInput(transform, ()=> speedOfMovement, ()=> canMove));
+            commands.Add(new DInput(transform, ()=> speedOfMovement, ()=> canMove));
+            commands.Add(new SInput(transform, ()=> speedOfMovement, ()=> canMove));
+            commands.Add(new WInput(transform, ()=> speedOfMovement, ()=> canMove));
+            oneUsecommands.Add(new IInput(uiController));
+            pAnim = FindObjectOfType<PlayerAnimations>();
         }
-    }
 
-    //All the movements and actions of the player are here
-    void Movements()
-    {
-        foreach (var command in commands)
+        // Update is called once per frame
+        void Update()
         {
-            if (Input.GetKey(command.KeyCode))
+            if (canMove)
             {
-                command.Execute();
-                pAnim.CheckForActionsAnimations(command.KeyCode);
+                Movements();
             }
         }
 
-        foreach (var command in oneUsecommands)
+        //All the movements and actions of the player are here
+        void Movements()
         {
-            if (Input.GetKeyDown(command.KeyCode))
+            foreach (var command in commands)
             {
-                command.Execute();
+                if (Input.GetKey(command.KeyCode))
+                {
+                    command.Execute();
+                    pAnim.CheckForActionsAnimations(command.KeyCode);
+                }
+            }
+
+            foreach (var command in oneUsecommands)
+            {
+                if (Input.GetKeyDown(command.KeyCode))
+                {
+                    command.Execute();
+                }
             }
         }
     }
