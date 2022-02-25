@@ -9,30 +9,30 @@ using Button = UnityEngine.UI.Button;
 public class ShopController : MonoBehaviour
 {
     [System.Serializable]
-    class ShopItem
+    public class ShopItem
     {
         public Sprite image;
         public int price;
         public bool isPurchased = false;
+        public string typeOfSkin;
     }
 
-    [SerializeField] private List<ShopItem> shopItemsList;
+    public List<ShopItem> shopItemsList;
     [SerializeField] private Animator noCoinAnim;
     [SerializeField] private TextMeshProUGUI coinText;
-    private GameObject itenmTemplate;
+    [SerializeField] private GameObject itemTemplate;
     private GameObject gObject;
     [SerializeField] private Transform shopScrollView;
     private Button buyButton;
     private Button closeButton;
+    [SerializeField] private Inventory playerInventory;
 
     private void Start()
     {
-        itenmTemplate = shopScrollView.GetChild(0).gameObject;
-
         int len = shopItemsList.Count;
         for (int i = 0; i < len; i++)
         {
-            gObject = Instantiate(itenmTemplate, shopScrollView);
+            gObject = Instantiate(itemTemplate, shopScrollView);
             gObject.transform.GetChild(0).GetComponent<Image>().sprite = shopItemsList[i].image;
             gObject.transform.GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = shopItemsList[i].price.ToString();
             buyButton = gObject.transform.GetChild(2).GetComponent<Button>();
@@ -44,7 +44,6 @@ public class ShopController : MonoBehaviour
             buyButton.AddEventListener(i,OnShopButtonClicked);
            
         }
-        Destroy(itenmTemplate);
 
         
 
@@ -62,6 +61,9 @@ public class ShopController : MonoBehaviour
             buyButton = shopScrollView.GetChild(itemIndex).GetChild(2).GetComponent<Button>();
             DisableBuyButton();
             SetCoinsInUI();
+            
+            //Add avatar to inventory
+            playerInventory.AddAvatar( shopItemsList[itemIndex].image);
         }
         else
         {
