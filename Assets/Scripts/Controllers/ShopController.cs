@@ -63,7 +63,7 @@ public class ShopController : MonoBehaviour
             SetCoinsInUI();
             
             //Add avatar to inventory
-            playerInventory.AddAvatar( shopItemsList[itemIndex].image);
+            playerInventory.AddAvatar( shopItemsList[itemIndex].image, shopItemsList[itemIndex].typeOfSkin);
         }
         else
         {

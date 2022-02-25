@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class TypeOfSkin : MonoBehaviour
 {
-   [SerializeField] private string skin;
-   [SerializeField] private Sprite[] skinType;
+   public string skin;
+   //[SerializeField] private Sprite[] skinType;
 
    private void Start()
    {

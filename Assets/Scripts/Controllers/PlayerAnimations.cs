@@ -7,10 +7,13 @@ public class PlayerAnimations : MonoBehaviour
     [SerializeField] private Animator[] animsController;
 
     [SerializeField] private PlayerController pController;
+    private string lastSkin;
+
     void Start()
     {
         animsController = GetComponentsInChildren<Animator>();
         pController = FindObjectOfType<PlayerController>();
+        lastSkin = "normalSkin";
     }
     
     void Update()
@@ -57,6 +60,20 @@ public class PlayerAnimations : MonoBehaviour
                     
                 }
                 break;
+        }
+    }
+
+    public void CheckForSkin(string skin)
+    {
+        foreach (var skinName in animsController)
+        {
+            skinName.SetBool(lastSkin, false);
+        }
+
+        lastSkin = skin;
+        foreach (var skinName in animsController)
+        {
+            skinName.SetBool(skin, true);
         }
     }
 }

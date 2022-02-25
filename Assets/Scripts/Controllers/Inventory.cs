@@ -54,14 +54,14 @@ public class Inventory : MonoBehaviour
            if (shopController.shopItemsList[i].isPurchased)
            {
                //this add all purchased avatars to avatarList
-               AddAvatar(shopController.shopItemsList[i].image);
+               AddAvatar(shopController.shopItemsList[i].image, shopController.shopItemsList[i].typeOfSkin);
 
            }
        }
-       SelectedAvatar(newSelectedIndex);
+       SelectedAvatar("normalSkin", newSelectedIndex);
    }
 
-   public void AddAvatar(Sprite img)
+   public void AddAvatar(Sprite img, string typeOfSkin)
    {
        
        if (avatarList == null)
@@ -77,16 +77,17 @@ public class Inventory : MonoBehaviour
        //Add avatar in the UI Scroll View
        g = Instantiate(avatarUITemplate, avatarsScrollView);
        g.transform.GetChild(0).GetComponent<Image>().sprite = av.image;
-           
-       g.transform.GetComponent<Button>().AddEventListener(avatarList.Count -1, OnAvatarClick);
+
+       g.transform.GetComponent<Button>()
+           .onClick.AddListener(() => OnAvatarClick(typeOfSkin, avatarList.Count - 1));
    }
 
-   void OnAvatarClick(int avatarIndex)
+   void OnAvatarClick(string typeOfSkin, int avatarIndex)
    {
-       SelectedAvatar(avatarIndex);
+       SelectedAvatar(typeOfSkin, avatarIndex);
    }
 
-   void SelectedAvatar(int avatarIndex)
+   void SelectedAvatar(string typeOfSkin, int avatarIndex)
    {
        previousSelectedIndex = newSelectedIndex;
        newSelectedIndex = avatarIndex;
@@ -94,6 +95,7 @@ public class Inventory : MonoBehaviour
        avatarsScrollView.GetChild(newSelectedIndex).GetComponent<Image>().color = activeAvatarColor;
 
        currentAvatar.sprite = avatarList[newSelectedIndex].image;
+       player.GetComponent<PlayerAnimations>().CheckForSkin(typeOfSkin);
    }
 
    void SellItem()
