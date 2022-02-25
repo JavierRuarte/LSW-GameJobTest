@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerAnimations : MonoBehaviour
 {
     [SerializeField] private Animator[] animsController;
+    [SerializeField] private Animator feetAnimsController;
 
     [SerializeField] private PlayerController pController;
     private string lastSkin;
@@ -32,7 +33,9 @@ public class PlayerAnimations : MonoBehaviour
                     parameter.SetFloat("sideSpeed", 0.2f);
                     parameter.SetFloat("frontSpeed", 0);
                     parameter.SetFloat("backSpeed", 0);
+                    //parameter.SetTrigger(lastSkin);
                 }
+                feetAnimsController.SetTrigger(lastSkin);
                 break;
             case KeyCode.D:
                 foreach (var parameter in animsController)
@@ -40,7 +43,9 @@ public class PlayerAnimations : MonoBehaviour
                     parameter.SetFloat("sideSpeed", 0.2f);
                     parameter.SetFloat("frontSpeed", 0);
                     parameter.SetFloat("backSpeed", 0);
+                    //parameter.SetTrigger(lastSkin);
                 }
+                feetAnimsController.SetTrigger(lastSkin);
                 break;
             case KeyCode.W:
                 foreach (var parameter in animsController)
@@ -67,13 +72,13 @@ public class PlayerAnimations : MonoBehaviour
     {
         foreach (var skinName in animsController)
         {
-            skinName.SetBool(lastSkin, false);
+            skinName.SetTrigger(lastSkin);
         }
 
         lastSkin = skin;
         foreach (var skinName in animsController)
         {
-            skinName.SetBool(skin, true);
+            skinName.SetTrigger(skin);
         }
     }
 }

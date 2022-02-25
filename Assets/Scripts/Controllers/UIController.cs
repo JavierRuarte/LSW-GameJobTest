@@ -8,6 +8,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private PlayerController player;
 
     [SerializeField] private GameObject inventory;
+    [SerializeField] private GameObject tutorialPannel;
     [SerializeField] private TextMeshProUGUI goldText;
 
     [SerializeField] private bool inventoryIsOpen;
@@ -22,6 +23,12 @@ public class UIController : MonoBehaviour
     public void ActualizationOfUi()
     {
         goldText.text = "Money: " + GameController.instance.amountOfMoney;
+    }
+
+    public void CloseTutorial()
+    {
+        tutorialPannel.SetActive(false);
+        GameController.instance.TutorialClosed();
     }
 
     public void ShowOrHidePlayerInventory()

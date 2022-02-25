@@ -88,9 +88,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: backSpeed
     m_EventTreshold: 0.1
-  - m_ConditionMode: 1
-    m_ConditionEvent: witchSkin
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4890499606406659690}
   m_Solo: 0
@@ -247,9 +244,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: sideSpeed
     m_EventTreshold: 0.1
-  - m_ConditionMode: 1
-    m_ConditionEvent: witchSkin
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 629486884984035461}
   m_Solo: 0
@@ -278,9 +272,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: sideSpeed
     m_EventTreshold: 0.1
-  - m_ConditionMode: 1
-    m_ConditionEvent: kinghtSkin
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -588206713847819836}
   m_Solo: 0
@@ -308,9 +299,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0.1
   - m_ConditionMode: 3
     m_ConditionEvent: frontSpeed
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: witchSkin
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5315062152948368385}
@@ -419,7 +407,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: kinghtSkin
+    m_ConditionEvent: knightSkin
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -588206713847819836}
@@ -518,7 +506,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: normalSkin 0
+  - m_Name: normalSkin
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -530,7 +518,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: witchSkin 0
+  - m_Name: witchSkin
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -588,9 +576,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: sideSpeed
     m_EventTreshold: 0.1
-  - m_ConditionMode: 1
-    m_ConditionEvent: kinghtSkin
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -426880883913102743}
   m_Solo: 0
@@ -647,9 +632,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: backSpeed
     m_EventTreshold: 0.1
-  - m_ConditionMode: 1
-    m_ConditionEvent: witchSkin
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5315062152948368385}
   m_Solo: 0
@@ -678,9 +660,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: backSpeed
     m_EventTreshold: 0.1
-  - m_ConditionMode: 1
-    m_ConditionEvent: kinghtSkin
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8525194286045132125}
   m_Solo: 0
@@ -708,9 +687,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0.1
   - m_ConditionMode: 3
     m_ConditionEvent: backSpeed
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: witchSkin
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4890499606406659690}
@@ -793,9 +769,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: backSpeed
     m_EventTreshold: 0.1
-  - m_ConditionMode: 1
-    m_ConditionEvent: kinghtSkin
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -588206713847819836}
   m_Solo: 0
@@ -849,9 +822,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: sideSpeed
     m_EventTreshold: 0.1
-  - m_ConditionMode: 1
-    m_ConditionEvent: kinghtSkin
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -426880883913102743}
   m_Solo: 0
@@ -880,9 +850,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: backSpeed
     m_EventTreshold: 0.1
-  - m_ConditionMode: 1
-    m_ConditionEvent: kinghtSkin
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8525194286045132125}
   m_Solo: 0
@@ -908,9 +875,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: sideSpeed
     m_EventTreshold: 0.1
-  - m_ConditionMode: 1
-    m_ConditionEvent: witchSkin
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 629486884984035461}
   m_Solo: 0

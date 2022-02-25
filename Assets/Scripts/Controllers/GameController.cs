@@ -16,12 +16,18 @@ public class GameController : MonoBehaviour
         instance = this;
         uiController = FindObjectOfType<UIController>();
         player = FindObjectOfType<PlayerController>();
+        player.canMove = false;
     }
     
     
     void Update()
     {
         
+    }
+
+    public void TutorialClosed()
+    {
+        player.canMove = true;
     }
 
     //Call actualization for the UI
@@ -45,5 +51,10 @@ public class GameController : MonoBehaviour
     public bool HasEnoughCoins(int amount)
     {
         return (amountOfMoney >= amount);
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }

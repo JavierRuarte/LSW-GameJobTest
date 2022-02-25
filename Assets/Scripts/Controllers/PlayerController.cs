@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]private float speedOfMovement;
-    [SerializeField]private bool canMove;
+    public bool canMove;
     public bool canSellItem;
     private readonly List<ICommand> commands = new List<ICommand>();
     private readonly List<ICommand> oneUsecommands = new List<ICommand>();
